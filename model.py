@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 # put the model file here  
-model_path = "your_model.h5"
+model_path = "Model/skin_disease_classifier.keras"
 model = tf.keras.models.load_model(model_path)
 
 # Define class labels
