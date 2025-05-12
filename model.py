@@ -7,7 +7,7 @@ model_path = "Model/skin_disease_classifier.keras"
 model = tf.keras.models.load_model(model_path)
 
 # Define class labels
-class_labels = ["Eczema", "Psoriasis", "Acne", "Melanoma", "Rosacea"]
+class_labels = ["Acne", "Actinic_Keratosis", "Benign_tumors", "Eczema", "Lupus", "Monkeypox", "Normal", "Psoriasis", "Sarampion", "SkinCancer", "Tinea", "Varicela", "Vitiligo"]
 
 def preprocess_image(image_path):
     """Preprocess image for model prediction"""
